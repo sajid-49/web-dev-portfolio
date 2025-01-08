@@ -1,0 +1,111 @@
+/* Google Fonts */
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+/* Shared Style */
+.primary-color {
+  color: #fd6e0a;
+}
+.text-color {
+  color: #ffffff;
+}
+.dark-2 {
+  color: #474747;
+}
+.dark-3 {
+  color: #181818;
+}
+
+.primary-btn {
+  /* width: 200px;
+  height: 64px; */
+  font-weight: 700;
+  font-size: 20px;
+  background-color: #fd6e0a;
+  color: #ffffff;
+  /* padding: 18px 35px 19px 36px; */
+  padding: 18px 35px;
+  border-radius: 5px;
+  border: none;
+}
+
+/* Page Section */
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.headercl {
+  background-image: url(../images/developer.png), url(../images/header_bg.png);
+  background-repeat: no-repeat;
+  background-position: top left, bottom right;
+}
+
+/* nav styles goes here */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 230px 0px 200px;
+}
+
+.nav-title {
+  font-weight: 800;
+  font-size: 45px;
+}
+
+.text-primary {
+  color: #fd6e0a;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+  gap: 51px;
+}
+
+nav ul li {
+  list-style: none;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/* Banner Styles */
+
+.banner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 35px 0 200px;
+}
+
+.banner-content {
+  max-width: 580px;
+}
+
+.banner-greetings {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.banner-title {
+  font-size: 85px;
+  font-weight: bold;
+}
+
+.banner-description {
+  font-size: 18px;
+  margin: 30px 0;
+}
+
+.banner-profile-pic {
+  width: 584px;
+  height: 686px;
+}
