@@ -7,11 +7,18 @@
 }
 
 /* Shared Style */
+
+.secondary-bg {
+  background-color: #fff8f3;
+}
 .primary-color {
   color: #fd6e0a;
 }
 .text-color {
   color: #ffffff;
+}
+.dark-1 {
+  color: #181818;
 }
 .dark-2 {
   color: #474747;
@@ -33,11 +40,24 @@
   border: none;
 }
 
+.section-title {
+  font-size: 35px;
+  font-weight: bold;
+  color: #181818;
+}
+.section-description {
+  font-size: 18px;
+  color: #757575;
+}
+
+.text-center{
+    text-align: center;
+}
 /* Page Section */
 
-* {
+/* * {
   margin: 0;
-  padding: 0;
+  padding: 0; */
 }
 
 .headercl {
@@ -109,3 +129,45 @@ nav ul li a {
   width: 584px;
   height: 686px;
 }
+
+/* Main Section Starts here */
+main {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
+    margin-bottom: 130px;
+}
+
+/* About section starts here */
+.about {
+  border-radius: 10px;
+  padding: 130px 150px;
+  text-align: center; 
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-description{
+    font-weight: 600;
+}
+
+/* Skills Section Starts Here */
+.skills-container{
+    display: flex;
+    gap: 24px;
+}
+
+.skill{
+    padding: 30px;
+    box-shadow: 0px 6px 50px 0px rgba(0, 0, 0, 0.06);
+
+}
+
+/* Skills Section Ends Here  */
+
